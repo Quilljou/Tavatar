@@ -31,7 +31,7 @@ class Navatar {
     ctx.fillStyle = FONT_COLOR;
 
     // set font
-    ctx.font = `${fontSize}px "sans-serif"`;
+    ctx.font = `${fontSize}px "WenQuanYi Micro Hei"`;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
 

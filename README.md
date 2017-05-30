@@ -1,16 +1,16 @@
 # Tavtar ![](examples/logo.png)
-tavtar, A simple script for generating username by text!
+tavtar, A simple script for generating avatar by giver text!
 
-See: [demo]()
+See: [demo](http://www.quilljou.com/tavatar/avatar?size=100&name=t)
 
 
 ## Installtion
 
-tips:
-before use the script, you must install [cario](http://cairographics.org/) on your machine. because the package the script used depend on cario; detail see
+-
+Before use the script, you must install [cario](http://cairographics.org/) on your machine. because the package the script used depend on cario; detail see
 [node-canvas](https://github.com/automattic/node-canvas)
 
-or you can just run the comand compatible with your machine os。
+or you can just run the command compatible with your machine os。
 
 os | command
 ----- | -----
@@ -22,6 +22,10 @@ windows | [instructions on our wiki](https://github.com/automattic/node-canvas/w
 
 more os see [node-canvas Wiki](https://github.com/Automattic/node-canvas/wiki/_pages).
 
+- If you want this script works fine with chinese or janpanese text, your should Install the font `WenQuanYi Micro Hei` on your machine, Otherwise the image will be messy.
+detail see https://github.com/Automattic/node-canvas/issues/461;
+
+Finally.
 
 ```shell
 $ npm i navatar -S
@@ -32,6 +36,7 @@ $ npm i navatar -S
 ```js
 cosnt Navtar = require('navatar');
 
+// new an object
 let avatar = new Avatar('name',100);
 
 // write to disk

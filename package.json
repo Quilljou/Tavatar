@@ -1,7 +1,7 @@
 {
   "name": "tavatar",
-  "version": "0.0.1",
-  "description": "tavtar, A simple script for generating username by text",
+  "version": "0.0.2",
+  "description": "tavtar, A simple script for generating avatar by giver text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,6 @@
   "author": "quillzhou",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^1.6.5",
-    "pureimage": "^0.0.21"
+    "canvas": "^1.6.5"
   }
 }
