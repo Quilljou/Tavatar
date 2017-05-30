@@ -1,7 +1,7 @@
 {
   "name": "tavatar",
   "version": "0.0.2",
-  "description": "tavtar, A simple script for generating avatar by giver text",
+  "description": "tavtar, A simple script for generating avatar by given text",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

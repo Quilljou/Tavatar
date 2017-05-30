@@ -40,7 +40,6 @@ class Navatar {
 
     // get position
     let { top, left } = this._position(size,text);
-    console.log(top);
     // fill text with text, x, y
     ctx.fillText(text, left, top);
   }

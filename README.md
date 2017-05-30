@@ -1,5 +1,5 @@
 # Tavtar ![](examples/logo.png)
-tavtar, A simple script for generating avatar by giver text!
+tavtar, A simple script for generating avatar by given text!
 
 See: [demo](http://www.quilljou.com/tavatar/avatar?size=100&name=t)
 
@@ -34,10 +34,10 @@ $ npm i navatar -S
 ## Usage
 
 ```js
-cosnt Navtar = require('navatar');
+const Navatar = require('navatar');
 
 // new an object
-let avatar = new Avatar('name',100);
+let avatar = new Navatar('name',100);
 
 // write to disk
 avatar.write('avatar.png');
@@ -45,6 +45,6 @@ avatar.write('avatar.png');
 // pipe as a Readable stream
 avatar.stream().pipe(res)
 
-//
+// to buffer
 avatar.toBuffer().toString('base64')
 ```
