@@ -1,5 +1,5 @@
-# Tavtar ![](examples/logo.png)
-tavtar, A simple script for generating avatar by given text!
+# Tavatar ![](examples/logo.png)
+Tavatar, A simple script for generating avatar by given text!
 
 See: [demo](http://www.quilljou.com/tavatar/avatar?size=100&name=t)
 
@@ -23,6 +23,10 @@ windows | [instructions on our wiki](https://github.com/automattic/node-canvas/w
 more os see [node-canvas Wiki](https://github.com/Automattic/node-canvas/wiki/_pages).
 
 - If you want this script works fine with chinese or janpanese text, your should Install the font `WenQuanYi Micro Hei` on your machine, Otherwise the image will be messy.
+
+```
+apt-get install fonts-wqy-microhei
+```
 detail see https://github.com/Automattic/node-canvas/issues/461;
 
 Finally.

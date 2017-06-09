@@ -99,10 +99,11 @@ class Navatar {
   _position (size,text) {
 
     let top =  size / 2;
+    // solved by install fonts-wqy-microhei
     // for chinese bug see@https://github.com/Automattic/node-canvas/issues/461;e
-    if(/^[\u4E00-\u9FA5]+$/.test(text)) {
-      top = size / 3;
-    }
+    // if(/^[\u4E00-\u9FA5]+$/.test(text)) {
+    //   top = size / 3;
+    // }
     let left = size / 2;
 
     return {
